@@ -1,4 +1,8 @@
+open Render
+
+GlobalStyles.includeStyle()
+
 @react.component
 let make = () => {
-  <div> <Button /> </div>
+  <Button>{s("Sign in")}</Button>
 }
